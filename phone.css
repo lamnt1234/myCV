@@ -1,0 +1,65 @@
+@media (max-width: 575px) {
+  /* thanh điều hướng */
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+  }
+  .lienket {
+    border: 0;
+
+    padding-left: 0;
+    width: fit-content;
+    height: auto;
+    font-size: 15px;
+  }
+  .lienket1 {
+    border: 0;
+    padding: 0;
+    width: fit-content;
+    height: auto;
+    font-size: 15px;
+  }
+
+  /* phan gioi thieu ban than */
+  .phan1 {
+    grid-template-columns: 1fr;
+  }
+  .maunen {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .maunen1 {
+    width: 350px;
+    margin-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* phần bản thân tôi */
+  .banthantoi {
+    grid-template-columns: 1fr;
+  }
+  /* phần bằng cấp thành tích */
+  .chungchi {
+    display: flex;
+    flex-direction: column;
+  }
+  .chungchi4 {
+    flex-direction: column;
+  }
+  .chungchi3 {
+    border-right: 0px;
+    padding-right: 0px;
+  }
+  .chungchi5 {
+    border-top: 1px solid orange;
+    padding-top: 30px;
+  }
+  /* Dự án tương lai */
+  .duan2 {
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    row-gap: 40px;
+  }
+}

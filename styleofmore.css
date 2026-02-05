@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(0, 163, 163);
+}
+.bg-div {
+  background-color: white;
+}
+.text-color {
+  color: rgb(0, 163, 163);
+}
+/* Icon style */
+.flag-icon {
+  display: inline-block;
+  margin: 20px;
+  font-size: large;
+}
+.person-icon {
+  display: inline-block;
+  margin: 20px;
+  font-size: large;
+}
+.hoicham-icon {
+  display: inline-block;
+  margin: 20px;
+  font-size: large;
+}
+/* Gạch chân */
+.header-underline {
+  padding: 10px;
+  border-bottom: 1px solid;
+  border-color: rgb(207, 207, 207);
+}
+.underline {
+  padding: 10px;
+  border-bottom: 1px solid;
+  border-color: whitesmoke;
+}
+.numberbox {
+  border-radius: 50%;
+  min-width: 50px;
+  min-height: 50px;
+  background-color: pink;
+  color: white;
+  align-content: center;
+}
+.center {
+  justify-self: center;
+}
+/*Tô đậm */
+.bolder-header {
+  font-weight: bold;
+}
+/* Khoảng cách */
+.p-1 {
+  padding: 10px;
+}
+.m-lr1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.m-lr2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.m-1 {
+  margin: 10px;
+}
+.m-2 {
+  margin: 40px;
+}

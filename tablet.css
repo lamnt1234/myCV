@@ -1,0 +1,37 @@
+@media (max-width: 800px) {
+  /* header */
+  .tentoi1 {
+    display: none;
+  }
+
+  .lienket {
+    text-transform: uppercase;
+    width: 80px;
+    height: auto;
+    font-size: 11px;
+    color: black;
+    text-decoration: none;
+    border-left: 1px solid rgb(230, 230, 230);
+    padding-left: 44px;
+
+    align-content: center;
+  }
+
+  .ten {
+    font-size: 25px;
+  }
+  /* phan gioi thieu ban than */
+  .banthantoi {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* phần bằng cấp thành tích */
+  .chungchi4 {
+    flex-direction: column;
+  }
+  /* Dự án tương lai */
+  .duan2 {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    row-gap: 40px;
+  }
+}

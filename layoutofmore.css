@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Layout của cả trang */
+.layout-hopchua {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.flex-2ben {
+  display: flex;
+}
+/* cột 3 */
+.cot3 {
+  grid-row: span 2;
+}
